@@ -4,6 +4,27 @@ A Discord bot made with AsyncPRAW to fetch images from reddit and post it on you
 ## Packages
 AsyncPRAW, os, Asyncio, wget, mimetypes, discord.py, requests, gc, dotenv, pandas
 
+## Make .env File 
+
+DISCORD_TOKEN = "Value"
+
+DISCORD_GUILD = "Value"
+
+CHANNEL = "Value"
+
+REDDIT_ID = "Value" ''' your Reddit App ID'''
+
+REDDIT_SECRET = "Value" ''' your Reddit App Secret'''
+
+SUBREDDIT="Value"
+
+## Deploying
+
+'''
+python3 imager.py
+'''
+
+
 ## Working
 Fetches the links in the posts.
 
