@@ -16,6 +16,7 @@ SERVER = os.getenv('DISCORD_GUILD')
 REDDIT_ID = os.getenv('REDDIT_ID')
 REDDIT_SECRET = os.getenv('REDDIT_SECRET')
 CHANNEL = os.getenv('CHANNEL')
+SUBREDDIT = os.getenv('SUBREDDIT')
 client = discord.Client()
 
 #gets the link type
@@ -51,7 +52,7 @@ async def on_ready():
 							user_agent="Mozilla",	                 # your user agent
                             check_for_async=False)
     
-    subreddit = await reddit.subreddit("hentai")
+    subreddit = await reddit.subreddit(str(SUBREDDIT))
     
     async for submission in subreddit.stream.submissions():                       
         if ( tipe(submission.url) != "text/html"):  #Sorts out the wrong image extentions                                                     
