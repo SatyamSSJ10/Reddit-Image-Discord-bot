@@ -12,17 +12,17 @@ DISCORD_GUILD = "Value"
 
 CHANNEL = "Value"
 
-REDDIT_ID = "Value" ''' your Reddit App ID'''
+REDDIT_ID = "Value" ``` your Reddit App ID```
 
-REDDIT_SECRET = "Value" ''' your Reddit App Secret'''
+REDDIT_SECRET = "Value" ``` your Reddit App Secret```
 
 SUBREDDIT="Value"
 
 ## Deploying
 
-'''
+```
 python3 imager.py
-'''
+```
 
 
 ## Working
