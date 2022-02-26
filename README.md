@@ -38,11 +38,13 @@ if smaller than 8Mb posts on discord channel.
 
 delete the image.
 
-## To Do List
+## To Do List (Will be updated as soon as I get more Ideas)
 
 Multiple subbreddit addition through discord directly.
 
 Multiple channel addition through discord directly.
 
 Discord Admin only access.
+
+Integrate Sauce Nao API.
 
