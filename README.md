@@ -25,8 +25,9 @@ subreddit2 = name of subreddit ex. ( from r/help we put help)
 .
 .
 subredditn
-## Deploying
 `
+## Deploying
+
 
 ```
 python3 imager.py
