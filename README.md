@@ -16,9 +16,17 @@ REDDIT_ID = "Value" ``` your Reddit App ID```
 
 REDDIT_SECRET = "Value" ``` your Reddit App Secret```
 
-SUBREDDIT="Value"
+SUBREDDIT="subreddit1+subreddit2+....+subredditn" ```Creating Multreddit instead of subreddit```
 
+`
+subreddit1 = name of subreddit ex. ( from r/all we put all)
+subreddit2 = name of subreddit ex. ( from r/help we put help)
+.
+.
+.
+subredditn
 ## Deploying
+`
 
 ```
 python3 imager.py
